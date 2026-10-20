@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> exercicio 2 </title>
+</head>
+<body>
+
+<!-- Solicite tres numeros ao usuario e exiba qual deles e o maior.Caso sejam iguais, informe que os numeros sao iguais.-->
+
+    <script> 
+        let n1 = parseFloat(prompt("Digite o primeiro numero"));
+        let n2 = parseFloat(prompt("Digite o segundo numero"));
+        let n3 = parseFloat(prompt("Digite o terceiro numero"));
+
+        if (n1 === n2 && n2 === n3) {
+            console.log("Os numeros sao iguais");
+        } else {
+            let maior = Math.max(n1,n2,n3);
+            console.log("O maior numero e:" + maior);
+        }
+    </script>
+
+</body>
+</html>
